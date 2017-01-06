@@ -7,11 +7,7 @@ padding: 10px;
 display: flex;
 justify-content: center;
 align-items: center;
-}
-#comicContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+background-color: white;
 }
 a {
   color: black;
@@ -33,6 +29,7 @@ a:visited {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: white;
 }
 body {
   background-color:#3a7f74;
