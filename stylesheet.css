@@ -13,23 +13,27 @@ align-items: center;
   justify-content: center;
   align-items: center;
 }
-#newestButton {
+a {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+.centerBoxParent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.centerBox {
   border-style: solid;
   border-radius: 10px;
   border-width: 2px;
-  width: 15%;
+  width: 50%;
   padding: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#newestButtonParent {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-a:visited {
-  color: black;
-}
+
   
 
