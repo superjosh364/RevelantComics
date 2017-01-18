@@ -1,3 +1,4 @@
+
 #comic {
 border-style: solid;
 border-radius: 5px;
@@ -30,6 +31,17 @@ a:visited {
   justify-content: center;
   align-items: center;
   background-color: white;
+}
+.navButton {
+border-style: solid;
+border-radius: 10px;
+border-width: 2px;
+width: 10%;
+padding: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: white;
 }
 body {
   background-color:#3a7f74;
