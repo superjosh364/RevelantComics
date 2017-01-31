@@ -8,6 +8,7 @@
       rel="stylesheet">
     </head>
     <body>
+      <script> var num = 1 </script>
       <div class="centerBoxParent">
         <a id="centerNavButton" href="https://sdgcode.github.io/RevelantComics">
           <i class="material-icons" style="font-size:48px">home</i>
@@ -24,8 +25,7 @@
          Random
         </div>
         <div class="navButton">
-         <i class="material-icons" onclick="{num++;
-           var img = document.getElementById('image').src='TestImage' + num +'.png'}">chevron_right</i>
+         <i class="material-icons" onclick="num++; document.getElementById('image').src='TestImage' + num +'.png'">chevron_right</i>
         </div>
         <div id="rotated180">
          <i class="material-icons">first_page</i>
