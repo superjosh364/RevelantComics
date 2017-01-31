@@ -1,4 +1,4 @@
-
+  
 <!DOCTYPE html>
   <html>
     <head>
@@ -8,6 +8,17 @@
       rel="stylesheet">
     </head>
     <body>
+      <script type="text/javascript">
+        var num = 1
+      function getImage()
+      {
+      
+      document.getElementById('image').src = 'TestImage' + num + '.png'
+      }
+      function changeImage() {
+       num++
+      }
+      </script>
       <div class="centerBoxParent">
         <a id="centerNavButton" href="https://sdgcode.github.io/RevelantComics">
           <i class="material-icons" style="font-size:48px">home</i>
@@ -24,7 +35,7 @@
          Random
         </div>
         <div class="navButton">
-         <i class="material-icons">chevron_right</i>
+         <i class="material-icons" onclick="changeImage()">chevron_right</i>
         </div>
         <div id="rotated180">
          <i class="material-icons">first_page</i>
