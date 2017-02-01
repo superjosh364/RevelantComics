@@ -10,7 +10,8 @@
     </head>
     <body>
       <script>
-         window.history.pushState("2.html");
+         var stateObj = { 1: "2" };
+        history.pushState(stateObj, "page 2", "2.html");
        </script>  
       <script> var num = 1; var comicCount = 2 </script>
       <div class="centerBoxParent">
