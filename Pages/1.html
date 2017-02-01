@@ -1,4 +1,4 @@
-  
+   
 <!DOCTYPE html>
   <html>
     <head>
@@ -8,26 +8,26 @@
       rel="stylesheet">
     </head>
     <body>
-      <script> var num = 1 </script>
+      <script> var num = 1; var comicCount = 2 </script>
       <div class="centerBoxParent">
         <a id="centerNavButton" href="https://sdgcode.github.io/RevelantComics">
           <i class="material-icons" style="font-size:48px">home</i>
         </a>
       </div>
       <div class="centerBoxParent">
-        <div class="navButton">
+        <div class="navButton" onclick="num = 1; document.getElementById('image').src='/RevelantComics/Images/TestImage1.png'">
          <i class="material-icons">first_page</i>
         </div>
         <div class="navButton" onclick="if(num != 1) {num--; document.getElementById('image').src='/RevelantComics/Images/TestImage' + num +'.png'}">
          <i class="material-icons">chevron_left</i>
         </div>
-        <div id="centerNavButton">
+        <div id="centerNavButton" onclick="num = Math.floor((Math.random() * 2) + 1); document.getElementById('image').src='/RevelantComics/Images/TestImage' + num + '.png'">
          Random
         </div>
         <div class="navButton" onclick="num++; document.getElementById('image').src='/RevelantComics/Images/TestImage' + num +'.png'">
          <i class="material-icons">chevron_right</i>
         </div>
-        <div id="rotated180">
+        <div id="rotated180" onclick="num = comicCount; document.getElementById('image').src='/RevelantComics/Images/TestImage' + num + '.png'">
          <i class="material-icons">first_page</i>
         </div>
       </div>
