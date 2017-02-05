@@ -1,3 +1,15 @@
+#search { 
+  border-top-left-radius:5px;
+  border-bottom-left-radius:5px;
+  border-style: solid;
+  border-width: 2px;
+}
+#submit { 
+  border-top-right-radius:5px;
+  border-bottom-right-radius:5px;
+  border-style: solid;
+  border-width: 2px;
+}
 #searchBox { 
   border-style: solid;
   border-radius: 10px;
