@@ -1,5 +1,14 @@
-
-
+#searchBox { 
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 2px;
+  width: 30%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
 #comic {
 border-style: solid;
 border-radius: 5px;
