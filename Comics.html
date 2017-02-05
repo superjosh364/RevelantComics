@@ -16,25 +16,25 @@
         </a>
       </div>
       <div class="centerBoxParent">
-        <div class="navButton" onclick="num = 1; document.getElementById('image').src='/RevelantComics/TestImage1.png'">
+        <div class="navButton" onclick="num = 1; document.getElementById('image').src='/RevelantComics/Images/TestImage1.png'">
          <i class="material-icons">first_page</i>
         </div>
-        <div class="navButton" onclick="if(num != 1) {num--; document.getElementById('image').src='/RevelantComics/TestImage' + num +'.png'}">
+        <div class="navButton" onclick="if(num != 1) {num--; document.getElementById('image').src='/RevelantComics/Images/TestImage' + num +'.png'}">
          <i class="material-icons">chevron_left</i>
         </div>
-        <div id="centerNavButton" onclick="num = Math.floor((Math.random() * 2) + 1); document.getElementById('image').src='/RevelantComics/TestImage' + num + '.png'">
+        <div id="centerNavButton" onclick="num = Math.floor((Math.random() * 2) + 1); document.getElementById('image').src='/RevelantComics/Images/TestImage' + num + '.png'">
          Random
         </div>
-        <div class="navButton" onclick="if(num != comicCount) {num++; document.getElementById('image').src='/RevelantComics/TestImage' + num +'.png'}">
+        <div class="navButton" onclick="if(num != comicCount) {num++; document.getElementById('image').src='/RevelantComics/Images/TestImage' + num +'.png'}">
          <i class="material-icons">chevron_right</i>
         </div>
-        <div id="rotated180" onclick="num = comicCount;document.getElementById('image').src='/RevelantComics/TestImage' + num + '.png'">
+        <div id="rotated180" onclick="num = comicCount;document.getElementById('image').src='/RevelantComics/Images/TestImage' + num + '.png'">
          <i class="material-icons">first_page</i>
         </div>
       </div>
       <div class="centerBoxParent">
        <div id="comic">
-        <img id="image" src="/RevelantComics/TestImage1.png" width="25%" height="25%" title="test"/>
+        <img id="image" src="/RevelantComics/Images/TestImage1.png" width="25%" height="25%" title="test"/>
       </div>
       </div>
     </body>
