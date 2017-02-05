@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
   <html>
     <head>
       <title>RevelantComics</title>
@@ -15,8 +15,8 @@
       </div>
       <div class="centerBoxParent">
         <form id="searchBox" action="">
-          <input id="search" type="text" placeholder="Type here">
-          <input id="submit" type="submit" value="Search">
+          <input id="search" type="number" min="1" max = comicCount placeholder="Type here">
+          <input id="submit" type="submit" value="Search" onclick="var num = document.getElementById('search'); document.getElementById('image').src='/RevelantComics/Images/TestImage' + num +'.png'">
         </form>
       </div>
       <div class="centerBoxParent">
