@@ -43,7 +43,8 @@ a:visited {
 .centerBoxParent {
   display: flex;  justify-content: center;  align-items: center;
 }.centerBox {
-   border-style: solid;
+
+  border-style: solid;
   border-radius: 10px;
   border-width: 2px;  
   width: 50%;
@@ -94,6 +95,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 background-color: #ff981a;
+font-family: Arial;
 }
   
 
