@@ -53,7 +53,7 @@ a:visited {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f28500;
+  background-color: #ff981a;
 }
 .navButton {
  border-style: solid;
@@ -64,7 +64,7 @@ padding: 5px;
 display: flex;
 justify-content: center;
 align-items: center;
-background-color: #f28500;
+background-color: #ff981a;
 }
 body {
   /*background-color:#3a7f74; */
@@ -83,7 +83,7 @@ padding: 5px;
 display: flex;
 justify-content: center;
 align-items: center;
-background-color: #f28500;
+background-color: #ff981a;
 }
 #centerNavButton {
  border-style: solid;
@@ -95,7 +95,7 @@ padding: 5px;
 display: flex;
 justify-content: center;
 align-items: center;
-background-color: #f28500;
+background-color: #ff981a;
 }
   
 
