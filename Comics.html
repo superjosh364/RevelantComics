@@ -14,12 +14,14 @@
         </a>
       </div>
       <div class="centerBoxParent">
-        <form id="searchBox" action="">
+       <div class="navButton" onclick="num = prompt('Search for a comic by number'); document.getElementById('image').src='/RevelantComics/Images/TestImage' + num +'.png' ">
+            </div>
+            <!-- <form id="searchBox" action="">
           <input id="search" type="number" min="1" max = comicCount placeholder="Type here">
           <div id="submit" onclick="var num = document.getElementById('search'); document.getElementById('image').src='/RevelantComics/Images/TestImage' + num +'.png'">
             Search
          </div>
-           </form>
+           </form> -->
       </div>
       <div class="centerBoxParent">
         <div class="navButton" onclick="num = 1; document.getElementById('image').src='/RevelantComics/Images/TestImage1.png'">
