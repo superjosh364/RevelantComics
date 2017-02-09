@@ -1,4 +1,4 @@
-
+v
 <!DOCTYPE html>
   <html>
     <head>
@@ -8,14 +8,14 @@
       rel="stylesheet">
     </head>
     <body> 
-      <script> var num = 1; var comicCount = 2 </script>
+      <script> var num = 1; var comicCount = 2; var input = 0; var processedInput = 0 </script>
       <div class="centerBoxParent">
         <a class="centerNavButton" href="https://sdgcode.github.io/RevelantComics">
           <i class="material-icons" style="font-size:48px">home</i>
         </a>
       </div>
       <div class="centerBoxParent">
-       <div class="centerNavButton" onclick="num = prompt('Search for a comic by number'); document.getElementById('image').src='/RevelantComics/Images/TestImage' + num +'.png' ">
+       <div class="centerNavButton" onclick="input = prompt('Search for a comic by number'); processedInput = floor(input + 0.5); if(processedInput/processedInput == 1 && processedInput <= comicCount && processedInput >= 1) {num = processedInput; document.getElementById('image').src='/RevelantComics/Images/TestImage' + num +'.png'} else {input = 0; processedInput = 0} ">
             Search
        </div>
             <!-- <form id="searchBox" action="">
