@@ -15,13 +15,13 @@
           </a>
         </div>
        <div class ="centerBoxParentNoPadding">
-       <div class="centerNavButton" onclick="input = Number(prompt('Search for a comic by number')); processedInput = Math.floor(input + 0.5); 
+       <button class="centerNavButton" onclick="input = Number(prompt('Search for a comic by number')); processedInput = Math.floor(input + 0.5); 
         if(processedInput/processedInput == 1 && processedInput <= comicCount && processedInput >= 1) 
          {num = processedInput; processedInput = 0; input = 0; document.getElementById('image').src='/RevelantComics/Images/TestImage' + num +'.png'} 
         else 
           {input = 0; processedInput = 0} ">
             Search
-       </div>
+       </button>
             <!-- <form id="searchBox" action="">
           <input id="search" type="number" min="1" max = comicCount placeholder="Type here">
           <div id="submit" onclick="var num = document.getElementById('search'); document.getElementById('image').src='/RevelantComics/Images/TestImage' + num +'.png'">
@@ -30,21 +30,21 @@
            </form> -->
       </div>
       <div class="centerBoxParentNoPadding">
-        <div class="navButton" onclick="num = 1; document.getElementById('image').src='/RevelantComics/Images/TestImage1.png'">
+        <button class="navButton" onclick="num = 1; document.getElementById('image').src='/RevelantComics/Images/TestImage1.png'">
          <i class="material-icons">first_page</i>
-        </div>
-        <div class="navButton" onclick="if(num != 1) {num--; document.getElementById('image').src='/RevelantComics/Images/TestImage' + num +'.png'}">
+        </button>
+        <button class="navButton" onclick="if(num != 1) {num--; document.getElementById('image').src='/RevelantComics/Images/TestImage' + num +'.png'}">
          <i class="material-icons">chevron_left</i>
-        </div>
-        <div class="centerNavButton" onclick="num = Math.floor((Math.random() * 2) + 1); document.getElementById('image').src='/RevelantComics/Images/TestImage' + num + '.png'">
+        </button>
+        <button class="centerNavButton" onclick="num = Math.floor((Math.random() * 2) + 1); document.getElementById('image').src='/RevelantComics/Images/TestImage' + num + '.png'">
          Random
-        </div>
-        <div class="navButton" onclick="if(num != comicCount) {num++; document.getElementById('image').src='/RevelantComics/Images/TestImage' + num +'.png'}">
+        </button>
+        <button class="navButton" onclick="if(num != comicCount) {num++; document.getElementById('image').src='/RevelantComics/Images/TestImage' + num +'.png'}">
          <i class="material-icons">chevron_right</i>
-        </div>
-        <div id="rotated180" onclick="num = comicCount;document.getElementById('image').src='/RevelantComics/Images/TestImage' + num + '.png'">
+        </button>
+        <button id="rotated180" onclick="num = comicCount;document.getElementById('image').src='/RevelantComics/Images/TestImage' + num + '.png'">
          <i class="material-icons">first_page</i>
-        </div>
+        </button>
       </div>
       <div class="centerBoxParent">
        <div id="comic">
