@@ -15,7 +15,11 @@
         </a>
       </div>
       <div class="centerBoxParent">
-       <div class="centerNavButton" onclick="input = prompt('Search for a comic by number'); processedInput = Math.floor(input + 0.5); if(processedInput/processedInput == 1 && processedInput <= comicCount || processedInput/processedInput == 1 && processedInput >= 1) {num = processedInput; document.getElementById('image').src='/RevelantComics/Images/TestImage' + num +'.png'} else {input = 0; processedInput = 0} ">
+       <div class="centerNavButton" onclick="input = prompt('Search for a comic by number'); processedInput = Math.floor(input + 0.5); 
+        if(processedInput/processedInput == 1 && processedInput <= comicCount && processedInput >= 1) 
+         {num = processedInput; processedInput = 0; input = 0; document.getElementById('image').src='/RevelantComics/Images/TestImage' + num +'.png'} 
+        else 
+          {input = 0; processedInput = 0} ">
             Search
        </div>
             <!-- <form id="searchBox" action="">
