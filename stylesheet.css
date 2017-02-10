@@ -1,3 +1,4 @@
+
 .top {
 background-color: #353a3a;
 width: 100%;
@@ -37,6 +38,7 @@ background-color: white;
 }
 a {
   color: black;
+  text-decoration: none;
 }
 a:visited {
   color: black;
@@ -44,6 +46,9 @@ a:visited {
 .centerBoxParent {
   display: flex;  justify-content: center;  align-items: center;
   padding: 5px;
+}
+.centerBoxParentNoPadding {
+ display: flex;  justify-content: center;  align-items: center;
 }
 .centerBox {
 
