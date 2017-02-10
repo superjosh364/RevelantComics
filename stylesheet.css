@@ -1,5 +1,5 @@
 .top {
-background-color: #5b9433;
+background-color: #353a3a;
 width: 100%;
 height: 30%;
 border-bottom-width: 2px;
@@ -67,7 +67,7 @@ align-items: center;
 background-color: #ff981a;
 }
 body {
-  /*background-color:#3a7f74; */
+  background-color:#3a7f74;
   margin: 0px;
   padding: 0px;
 }
