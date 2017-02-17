@@ -8,7 +8,7 @@
       rel="stylesheet">
     </head>
     <body> 
-      <script> var num = 1; var comicCount = 2; var input = 0; var processedInput = 0 </script>
+      <script> var comicCount = 2; var num = comicCount; var input = 0; var processedInput = 0 </script>
         <div class="centerBoxParentNoPadding">
           <a class="centerNavButton" href="https://sdgcode.github.io/RevelantComics">
             <i class="material-icons" style="font-size:48px">home</i>
@@ -48,11 +48,17 @@
       </div>
       <div class="centerBoxParent">
        <div id="comic">
-        <img id="image" src="/RevelantComics/Images/TestImage1.png" width="25%" height="25%" title=""/>
+        <img id="image" src="" width="25%" height="25%" title=""/>
       </div>
+      </div>
+      <div class="centerBoxParentNoPadding">
+        <div class="centerBox">
+          
+        </div>
       </div>
         <script>
           document.getElementById('image').title = MouseText['comic' + comicCount].rollOver;
+          document.getElementById('image').src = "/RevelantComics/Images/TestImage" + comicCount + ".png";
         </script>
     </body>
   </html>
