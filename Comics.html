@@ -3,6 +3,7 @@
     <head>
       <title>RevelantComics</title>
       <script src="MouseText.js"></script>
+      <script src ="main.js"></script>
       <link type="text/css" rel="stylesheet" href="/RevelantComics/stylesheet.css "/>
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
@@ -58,7 +59,7 @@
       </div>
         <script>
           document.getElementById('image').title = MouseText['comic' + comicCount].rollOver;
-          document.getElementById('image').src = "/RevelantComics/Images/TestImage" + comicCount + ".png";
+          newImage(comicCount);
         </script>
     </body>
   </html>
