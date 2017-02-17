@@ -1,4 +1,4 @@
-var MouseText {
+var MouseText = {
   "comic1": {
     "rollOver": "Text1"
   },
