@@ -43,7 +43,7 @@
         <button class="navButton" onclick="if(num != comicCount) {num++; document.getElementById('image').src='/RevelantComics/Images/TestImage' + num +'.png'}">
          <i class="material-icons">chevron_right</i>
         </button>
-        <button id="rotated180" onclick="num = comicCount;document.getElementById('image').src='/RevelantComics/Images/TestImage' + num + '.png'">
+        <button id="rotated180" onclick="getImage(comicCount);">
          <i class="material-icons">first_page</i>
         </button>
       </div>
@@ -59,7 +59,7 @@
       </div>
         <script>
           document.getElementById('image').title = MouseText['comic' + comicCount].rollOver;
-          newImage(comicCount);
+          getImage(comicCount);
         </script>
     </body>
   </html>
