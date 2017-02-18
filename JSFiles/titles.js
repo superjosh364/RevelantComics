@@ -1,8 +1,8 @@
 var titles = {
   "comic1": {
-    "title": "title1"
+    "Title": "title1"
   },
   "comic2": {
-    "note": "title2" 
+    "Title": "title2" 
   }
 };
