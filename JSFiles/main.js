@@ -7,5 +7,5 @@ function getRollOverText(numIn) {
 };
 function getTitle(numIn) {
  var currentState = document.getElementById('comic').innerHTML;
- document.getElementById('comic').innerHtml = titles['comic' + num].title + currentState;
+ document.getElementById('comic').innerHtml = titles['comic' + num].Title + currentState;
 }; 
