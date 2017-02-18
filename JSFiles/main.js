@@ -6,6 +6,5 @@ function getRollOverText(numIn) {
  document.getElementById('image').title = MouseText['comic' + num].rollOver;
 };
 function getTitle(numIn) {
- var currentState = document.getElementById('comic').innerHTML;
- document.getElementById('comic').innerHtml = titles['comic' + num].Title + currentState;
+ document.getElementById('comicTitle').innerHtml = titles['comic' + num].Title;
 }; 
