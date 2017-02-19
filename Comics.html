@@ -39,7 +39,7 @@
         <button class="navButton" onclick="if(num != 1) {getImage(num - 1); getRollOverText(num); getTitle(num);}">
          <i class="material-icons">chevron_left</i>
         </button>
-        <button class="centerNavButton" onclick="getImage(Math.floor((Math.random() * 2) + 1)); getRollOverText(num); getTitle(num);">
+        <button class="centerNavButton" onclick="getImage(Math.floor((Math.random() * comicCount) + 1)); getRollOverText(num); getTitle(num);">
          Random
         </button>
         <button class="navButton" onclick="if(num != comicCount) {getImage(num + 1); getRollOverText(num); getTitle(num);}">
