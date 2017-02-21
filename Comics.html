@@ -20,7 +20,7 @@
        <div class ="centerBoxParentNoPadding">
        <button class="centerNavButton" onclick="input = Number(prompt('Search for a comic by number')); processedInput = Math.floor(input + 0.5); 
         if(processedInput/processedInput == 1 && processedInput <= comicCount && processedInput >= 1) 
-         {getImage(processedInput); getRollOverText(num); getTitle(num); processedInput = 0;input = 0;} 
+         {getImage(processedInput); getRollOverText(num); getTitle(num); getNotes(num); processedInput = 0;input = 0;} 
         else 
           {input = 0; processedInput = 0} ">
             Search
@@ -33,19 +33,19 @@
            </form> -->
       </div>
       <div class="centerBoxParentNoPadding">
-        <button class="navButton" onclick="getImage(1); getRollOverText(num); getTitle(num);">
+        <button class="navButton" onclick="getImage(1); getRollOverText(num); getTitle(num); getNotes(num);">
          <i class="material-icons">first_page</i>
         </button>
-        <button class="navButton" onclick="if(num != 1) {getImage(num - 1); getRollOverText(num); getTitle(num);}">
+        <button class="navButton" onclick="if(num != 1) {getImage(num - 1); getRollOverText(num); getTitle(num); getNotes(num);}">
          <i class="material-icons">chevron_left</i>
         </button>
-        <button class="centerNavButton" onclick="getImage(Math.floor((Math.random() * comicCount) + 1)); getRollOverText(num); getTitle(num);">
+        <button class="centerNavButton" onclick="getImage(Math.floor((Math.random() * comicCount) + 1)); getRollOverText(num); getTitle(num); getNotes(num);">
          Random
         </button>
-        <button class="navButton" onclick="if(num != comicCount) {getImage(num + 1); getRollOverText(num); getTitle(num);}">
+        <button class="navButton" onclick="if(num != comicCount) {getImage(num + 1); getRollOverText(num); getTitle(num); getNotes(num);}">
          <i class="material-icons">chevron_right</i>
         </button>
-        <button id="rotated180" onclick="getImage(comicCount); getRollOverText(num); getTitle(num);">
+        <button id="rotated180" onclick="getImage(comicCount); getRollOverText(num); getTitle(num); getNotes(num);">
          <i class="material-icons">first_page</i>
         </button>
       </div>
@@ -70,6 +70,7 @@
           getRollOverText(comicCount);
           getImage(comicCount);
           getTitle(comicCount);
+          getNotes(comicCount);
         </script>
     </body>
   </html>
