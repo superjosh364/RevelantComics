@@ -9,5 +9,5 @@ function getTitle(numIn) {
  document.getElementById('aboveComic').innerText = titles['comic' + num].Title;
 }; 
 function getNotes(numIn) {
- document.getElementById('belowComic').innerText = notes['comic' + num].notes;
+ document.getElementById('notes').innerText = notes['comic' + num].notes;
 }
