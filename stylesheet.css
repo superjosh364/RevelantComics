@@ -1,5 +1,4 @@
 #notes {
-  display: none;
   border-bottom-style: solid;
   border-right-style: solid;
   border-left-style: solid;
@@ -15,6 +14,7 @@
   align-items: center;
   background-color: white;
   font-family: Arial;   
+  display: none;
 }
 img {
 margin: 5px;
