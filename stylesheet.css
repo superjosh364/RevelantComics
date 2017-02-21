@@ -34,10 +34,10 @@ height: auto;
   justify-content: center;
   align-items: center;
   background-color: white;
-  font-family: Arial;
-  font-variant: small-caps; 
+  font-family: Arial;   
   font-weight: bold;
   font-size: 20px;
+  font-variant: small-caps;
 }
 .top {
 background-color: #353a3a;
