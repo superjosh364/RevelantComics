@@ -1,6 +1,6 @@
 var titles = {
   "comic1": {
-    "Title": "ILLOGICAL"
+    "Title": "Illogical"
   },
   "comic2": {
     "Title": "title2" 
