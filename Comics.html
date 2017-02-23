@@ -19,8 +19,7 @@
         </div>
        <div class ="centerBoxParentNoPadding">
        <button class="centerNavButton" onclick="input = Number(prompt('Search for a comic by number')); processedInput = Math.floor(input + 0.5); 
-        if(processedInput/processedInput == 1 && processedInput <= comicCount && processedInput >= 1) 
-         {getImage(processedInput); getRollOverText(num); getTitle(num); getNotes(num); processedInput = 0;input = 0;} 
+        if(processedInput/processedInput == 1 && processedInput <= comicCount && processedInput >= 1)          {getImage(processedInput); getRollOverText(num); getTitle(num); getNotes(num); processedInput = 0;input = 0;} 
         else 
           {input = 0; processedInput = 0} ">
              Search
@@ -60,7 +59,7 @@
       </div>
       </div>
       <div class="centerBoxParentNoPadding">
-        <div id="belowComic" onclick="if(notesVis == 0) {notesVis = 1; document.getElementById('belowComic').style.border-bottom-left-radius = 0px; document.getElementById('belowComic').style.border-bottom-right-radius = 0px; document.getElementById('notes').style.display ='inline';} else {notesVis = 0; document.getElementById('belowComic').style.border-bottom-right-radius = 10px; document.getElementById('belowComic').style.border-bottom-left-radius = 10px; document.getElementById('notes').style.display = 'none';}">
+        <div id="belowComic" onclick="if(notesVis == 0) {notesVis = 1; document.getElementById('belowComic').style.border-bottom-left-radius = 0; document.getElementById('belowComic').style.border-bottom-right-radius = 0; document.getElementById('notes').style.display ='inline';} else {notesVis = 0; document.getElementById('belowComic').style.border-bottom-right-radius = 10; document.getElementById('belowComic').style.border-bottom-left-radius = 10; document.getElementById('notes').style.display = 'none';}">
          Notes         
         </div>
       </div>
